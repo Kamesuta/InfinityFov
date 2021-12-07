@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "infinity-fov",
+  "version": "${version}",
+  "name": "InfinityFov",
+  "description": "",
+  "authors": [
+    "Kamesuta"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/infinity-fov/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kamesuta.infinityfov.client.InfinityFovClient"
+    ],
+    "main": [
+      "com.kamesuta.infinityfov.InfinityFov"
+    ]
+  },
+  "mixins": [
+    "infinity-fov.mixins.json"
+  ],
+  "accessWidener" : "infinity-fov.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

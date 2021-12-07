@@ -1,0 +1,6 @@
+accessWidener	v1	named
+accessible   field   net/minecraft/client/gui/screen/Screen   drawables   Ljava/util/List;
+accessible   field   net/minecraft/client/gui/widget/DoubleOptionSliderWidget   option   Lnet/minecraft/client/option/DoubleOption;
+accessible   field   net/minecraft/client/option/Option   key   Lnet/minecraft/text/Text;
+mutable   field   net/minecraft/client/option/DoubleOption   min   D
+accessible   field   net/minecraft/client/option/DoubleOption   min   D
